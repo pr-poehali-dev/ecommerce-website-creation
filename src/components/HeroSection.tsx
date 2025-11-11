@@ -51,7 +51,7 @@ const HeroSection = ({
             <div className="animate-fade-in">
               <Badge className="mb-4 bg-gradient-to-r from-purple-600 to-pink-600">
                 <Icon name="Sparkles" size={14} className="mr-1" />
-                Новая коллекция 2024
+                Новая коллекция 2025
               </Badge>
               <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
                 Электроника

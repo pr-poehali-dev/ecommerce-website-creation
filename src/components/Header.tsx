@@ -41,7 +41,7 @@ const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare,
               <Icon name="Zap" className="text-white" size={24} />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              TechStore
+              ВыборПро
             </span>
           </div>
 

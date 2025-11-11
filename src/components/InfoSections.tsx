@@ -10,7 +10,7 @@ const InfoSections = () => {
       <section id="о-нас" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">О компании TechStore</h2>
+            <h2 className="text-4xl font-bold mb-6">О компании ВыборПро</h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Мы — команда энтузиастов технологий с 10-летним опытом работы на рынке электроники. 
               Наша миссия — сделать передовые технологии доступными каждому.
@@ -144,7 +144,7 @@ const InfoSections = () => {
                 <Icon name="Mail" size={24} className="text-purple-600 mt-1" />
                 <div>
                   <h3 className="font-bold mb-1">Email</h3>
-                  <p className="text-gray-600">info@techstore.ru</p>
+                  <p className="text-gray-600">info@viborpro.ru</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
