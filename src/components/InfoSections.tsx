@@ -7,38 +7,38 @@ import Icon from '@/components/ui/icon';
 const InfoSections = () => {
   return (
     <>
-      <section id="о-нас" className="py-20 bg-white">
+      <section id="о-нас" className="py-20 bg-slate-950">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">О компании ВыборПро</h2>
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+            <h2 className="text-4xl font-bold mb-6 text-white">О компании ВыборПро</h2>
+            <p className="text-xl text-slate-400 mb-8 leading-relaxed">
               Мы — команда энтузиастов технологий с 10-летним опытом работы на рынке электроники. 
               Наша миссия — сделать передовые технологии доступными каждому.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
-              <div className="p-6">
-                <Icon name="Award" size={48} className="mx-auto mb-4 text-purple-600" />
-                <h3 className="font-bold text-xl mb-2">Качество</h3>
-                <p className="text-gray-600">Только оригинальная продукция от официальных поставщиков</p>
+              <div className="p-6 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+                <Icon name="Award" size={48} className="mx-auto mb-4 text-cyan-400" />
+                <h3 className="font-bold text-xl mb-2 text-white">Качество</h3>
+                <p className="text-slate-400">Только оригинальная продукция от официальных поставщиков</p>
               </div>
-              <div className="p-6">
-                <Icon name="Headphones" size={48} className="mx-auto mb-4 text-pink-600" />
-                <h3 className="font-bold text-xl mb-2">Поддержка</h3>
-                <p className="text-gray-600">Консультации и помощь в выборе 24/7</p>
+              <div className="p-6 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-blue-500/50 transition-all duration-300">
+                <Icon name="Headphones" size={48} className="mx-auto mb-4 text-blue-400" />
+                <h3 className="font-bold text-xl mb-2 text-white">Поддержка</h3>
+                <p className="text-slate-400">Консультации и помощь в выборе 24/7</p>
               </div>
-              <div className="p-6">
-                <Icon name="Shield" size={48} className="mx-auto mb-4 text-orange-500" />
-                <h3 className="font-bold text-xl mb-2">Гарантия</h3>
-                <p className="text-gray-600">Расширенная гарантия на все товары до 2 лет</p>
+              <div className="p-6 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-emerald-500/50 transition-all duration-300">
+                <Icon name="Shield" size={48} className="mx-auto mb-4 text-emerald-400" />
+                <h3 className="font-bold text-xl mb-2 text-white">Гарантия</h3>
+                <p className="text-slate-400">Расширенная гарантия на все товары до 2 лет</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="доставка" className="py-20 bg-gray-50">
+      <section id="доставка" className="py-20 bg-slate-900">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Доставка и оплата</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-white">Доставка и оплата</h2>
           <Tabs defaultValue="delivery" className="max-w-4xl mx-auto">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="delivery">Доставка</TabsTrigger>
@@ -121,37 +121,37 @@ const InfoSections = () => {
         </div>
       </section>
 
-      <section id="контакты" className="py-20 bg-white">
+      <section id="контакты" className="py-20 bg-slate-950">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Контакты</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-white">Контакты</h2>
           <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <Icon name="MapPin" size={24} className="text-purple-600 mt-1" />
+                <Icon name="MapPin" size={24} className="text-cyan-400 mt-1" />
                 <div>
-                  <h3 className="font-bold mb-1">Адрес</h3>
-                  <p className="text-gray-600">г. Москва, ул. Тверская, д. 1</p>
+                  <h3 className="font-bold mb-1 text-white">Адрес</h3>
+                  <p className="text-slate-400">г. Москва, ул. Тверская, д. 1</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Icon name="Phone" size={24} className="text-purple-600 mt-1" />
+                <Icon name="Phone" size={24} className="text-blue-400 mt-1" />
                 <div>
-                  <h3 className="font-bold mb-1">Телефон</h3>
-                  <p className="text-gray-600">+7 (495) 123-45-67</p>
+                  <h3 className="font-bold mb-1 text-white">Телефон</h3>
+                  <p className="text-slate-400">+7 (495) 123-45-67</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Icon name="Mail" size={24} className="text-purple-600 mt-1" />
+                <Icon name="Mail" size={24} className="text-emerald-400 mt-1" />
                 <div>
-                  <h3 className="font-bold mb-1">Email</h3>
-                  <p className="text-gray-600">info@viborpro.ru</p>
+                  <h3 className="font-bold mb-1 text-white">Email</h3>
+                  <p className="text-slate-400">info@viborpro.ru</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Icon name="Clock" size={24} className="text-purple-600 mt-1" />
+                <Icon name="Clock" size={24} className="text-violet-400 mt-1" />
                 <div>
-                  <h3 className="font-bold mb-1">Режим работы</h3>
-                  <p className="text-gray-600">Пн-Вс: 10:00 - 22:00</p>
+                  <h3 className="font-bold mb-1 text-white">Режим работы</h3>
+                  <p className="text-slate-400">Пн-Вс: 10:00 - 22:00</p>
                 </div>
               </div>
             </div>
@@ -165,7 +165,7 @@ const InfoSections = () => {
                 <Input type="email" placeholder="Email" />
                 <Input placeholder="Телефон" />
                 <Input placeholder="Сообщение" />
-                <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
+                <Button className="w-full bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg shadow-blue-500/30">
                   Отправить
                 </Button>
               </CardContent>

@@ -33,14 +33,14 @@ interface HeaderProps {
 
 const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare, totalPrice, totalItems }: HeaderProps) => {
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-lg bg-white/80 border-b border-purple-100 shadow-sm">
+    <header className="sticky top-0 z-50 backdrop-blur-xl bg-slate-900/95 border-b border-blue-500/20 shadow-lg shadow-blue-500/5">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
-              <Icon name="Zap" className="text-white" size={24} />
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-blue-500/50">
+              <Icon name="Cpu" className="text-white" size={22} />
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
               ВыборПро
             </span>
           </div>
@@ -50,8 +50,8 @@ const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare,
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className={`font-medium transition-colors hover:text-purple-600 ${
-                  activeSection === item ? 'text-purple-600' : 'text-gray-700'
+                className={`font-medium transition-all duration-200 hover:text-cyan-400 ${
+                  activeSection === item ? 'text-cyan-400' : 'text-slate-300'
                 }`}
               >
                 {item}
@@ -65,7 +65,7 @@ const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare,
                 <Button variant="outline" size="icon" className="relative">
                   <Icon name="ShoppingCart" size={20} />
                   {totalItems > 0 && (
-                    <Badge className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 bg-gradient-to-r from-purple-600 to-pink-600">
+                    <Badge className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 bg-gradient-to-r from-blue-500 to-cyan-400 shadow-lg shadow-blue-500/50">
                       {totalItems}
                     </Badge>
                   )}
@@ -98,9 +98,9 @@ const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare,
                       <div className="pt-4 border-t">
                         <div className="flex justify-between items-center mb-4">
                           <span className="text-lg font-bold">Итого:</span>
-                          <span className="text-2xl font-bold text-purple-600">{totalPrice.toLocaleString('ru-RU')} ₽</span>
+                          <span className="text-2xl font-bold text-blue-500">{totalPrice.toLocaleString('ru-RU')} ₽</span>
                         </div>
-                        <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700" size="lg">
+                        <Button className="w-full bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg shadow-blue-500/30" size="lg">
                           Оформить заказ
                         </Button>
                       </div>
@@ -115,7 +115,7 @@ const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare,
                 <Button variant="outline" size="icon" className="relative">
                   <Icon name="GitCompare" size={20} />
                   {compare.length > 0 && (
-                    <Badge className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 bg-gradient-to-r from-orange-500 to-red-500">
+                    <Badge className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 bg-gradient-to-r from-emerald-500 to-teal-400 shadow-lg shadow-emerald-500/50">
                       {compare.length}
                     </Badge>
                   )}
@@ -150,7 +150,7 @@ const Header = ({ activeSection, scrollToSection, cart, removeFromCart, compare,
                             <td className="p-4 border-t font-medium">Цена</td>
                             {compare.map(product => (
                               <td key={product.id} className="p-4 border-t text-center">
-                                <span className="text-lg font-bold text-purple-600">{product.price.toLocaleString('ru-RU')} ₽</span>
+                                <span className="text-lg font-bold text-blue-500">{product.price.toLocaleString('ru-RU')} ₽</span>
                               </td>
                             ))}
                           </tr>

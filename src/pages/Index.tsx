@@ -43,7 +43,7 @@ const products: Product[] = [
     name: 'iPhone 15 Pro Max',
     category: 'Смартфоны',
     price: 134990,
-    image: 'https://images.unsplash.com/photo-1592286927505-2fd4c2115e6e?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=800&q=80',
     specs: {
       processor: 'A17 Pro',
       ram: '8 ГБ',
@@ -59,7 +59,7 @@ const products: Product[] = [
     category: 'Аксессуары',
     price: 24990,
     oldPrice: 29990,
-    image: 'https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80',
     specs: {
       battery: 'до 6 часов',
     },
@@ -70,7 +70,7 @@ const products: Product[] = [
     name: 'iPad Air 11"',
     category: 'Планшеты',
     price: 69990,
-    image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&q=80',
     specs: {
       processor: 'Apple M2',
       ram: '8 ГБ',
@@ -83,7 +83,7 @@ const products: Product[] = [
     name: 'Apple Watch Ultra 2',
     category: 'Смарт-часы',
     price: 89990,
-    image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80',
     specs: {
       display: '1.92" Always-On',
       battery: 'до 36 часов'
@@ -95,7 +95,7 @@ const products: Product[] = [
     name: 'Samsung Galaxy S24 Ultra',
     category: 'Смартфоны',
     price: 119990,
-    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1610945264803-c22b62d2a7b6?w=800&q=80',
     specs: {
       processor: 'Snapdragon 8 Gen 3',
       ram: '12 ГБ',
@@ -155,7 +155,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
+    <div className="min-h-screen bg-slate-950">
       <Header 
         activeSection={activeSection}
         scrollToSection={scrollToSection}
