@@ -29,7 +29,7 @@ const products: Product[] = [
     category: 'Ноутбуки',
     price: 289990,
     oldPrice: 319990,
-    image: 'https://cdn.poehali.dev/projects/6c292588-968b-4244-becf-53209edb5142/files/1d070bd4-4af5-41ee-b719-dbe7aa493917.jpg',
+    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80',
     specs: {
       processor: 'Apple M3 Pro',
       ram: '32 ГБ',
@@ -43,7 +43,7 @@ const products: Product[] = [
     name: 'iPhone 15 Pro Max',
     category: 'Смартфоны',
     price: 134990,
-    image: 'https://cdn.poehali.dev/projects/6c292588-968b-4244-becf-53209edb5142/files/1d070bd4-4af5-41ee-b719-dbe7aa493917.jpg',
+    image: 'https://images.unsplash.com/photo-1592286927505-2fd4c2115e6e?w=800&q=80',
     specs: {
       processor: 'A17 Pro',
       ram: '8 ГБ',
@@ -59,7 +59,7 @@ const products: Product[] = [
     category: 'Аксессуары',
     price: 24990,
     oldPrice: 29990,
-    image: 'https://cdn.poehali.dev/projects/6c292588-968b-4244-becf-53209edb5142/files/1d070bd4-4af5-41ee-b719-dbe7aa493917.jpg',
+    image: 'https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80',
     specs: {
       battery: 'до 6 часов',
     },
@@ -70,7 +70,7 @@ const products: Product[] = [
     name: 'iPad Air 11"',
     category: 'Планшеты',
     price: 69990,
-    image: 'https://cdn.poehali.dev/projects/6c292588-968b-4244-becf-53209edb5142/files/1d070bd4-4af5-41ee-b719-dbe7aa493917.jpg',
+    image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80',
     specs: {
       processor: 'Apple M2',
       ram: '8 ГБ',
@@ -83,7 +83,7 @@ const products: Product[] = [
     name: 'Apple Watch Ultra 2',
     category: 'Смарт-часы',
     price: 89990,
-    image: 'https://cdn.poehali.dev/projects/6c292588-968b-4244-becf-53209edb5142/files/1d070bd4-4af5-41ee-b719-dbe7aa493917.jpg',
+    image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80',
     specs: {
       display: '1.92" Always-On',
       battery: 'до 36 часов'
@@ -95,7 +95,7 @@ const products: Product[] = [
     name: 'Samsung Galaxy S24 Ultra',
     category: 'Смартфоны',
     price: 119990,
-    image: 'https://cdn.poehali.dev/projects/6c292588-968b-4244-becf-53209edb5142/files/1d070bd4-4af5-41ee-b719-dbe7aa493917.jpg',
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80',
     specs: {
       processor: 'Snapdragon 8 Gen 3',
       ram: '12 ГБ',
